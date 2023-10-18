@@ -40,19 +40,19 @@ export default function Navbar() {
   ]
 
   return (
-    <header className='flex justify-between items-center min-h-[100px]'>
+    <header className=''>
       <div>
-        <Link className='font-bold text-2xl text-lime-200 hover:text-lime-300 transition' href='/'>BaLaBaMBa</Link>
+        <Link className='' href='/'>PullStar</Link>
       </div>
-      <nav className='flex gap-2 items-center'>      
-        <ul className='flex gap-4'>
+      <nav className=''>      
+        <ul className=''>
           {links.map((link:INavbarLink) =>{
             return (
-              <li className='hover:text-lime-300' key={link.id}><Link  href={link.url}>{link.title}</Link></li>
+              <li className='' key={link.id}><Link  href={link.url}>{link.title}</Link></li>
             )
           })}
         </ul>
-        <button className='p-1 rounded bg-lime-200 text-black'>Logout</button>
+        <button className=''>Аватар</button>
       </nav>
     </header>
   )
