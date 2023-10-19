@@ -23,7 +23,7 @@
       "@interfaces/*": ["./src/interfaces/*"],
       "@services/*": ["./src/services/*"],
       "@store/*": ["./src/storeRedux/*"],
-      "@ui/*": ["src/ui/*"],
+      "@ui/*": ["./src/ui/*"],
       "@ulits/*": ["./src/ulits/*"],
       "@components/*": ["./src/components/*"],
       "@shared/*": ["./shared/*"],
