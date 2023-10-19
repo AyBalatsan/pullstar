@@ -41,7 +41,7 @@ export default function Navbar() {
 
   return (
     <header className=''>
-      <div>
+      {/* <div>
         <Link className='' href='/'>PullStar</Link>
       </div>
       <nav className=''>      
@@ -53,7 +53,7 @@ export default function Navbar() {
           })}
         </ul>
         <button className=''>Аватар</button>
-      </nav>
+      </nav> */}
     </header>
   )
 }
